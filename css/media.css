@@ -1,0 +1,27 @@
+@media(max-width: 1199px) {
+    .galery__wrapper {
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .course__block__wrapper {
+        flex-wrap: wrap;
+        display: block;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
+    .gallery__block {
+        margin-right: 0;
+        margin-bottom: 5vw;
+    }
+
+    .galery__text {
+        width: 50%;
+        margin: auto;
+        margin-top: 1vw;
+    }
+}

@@ -1,0 +1,305 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat Alternates", sans-serif;
+    color: #fff;
+    background-color: #102836;
+
+    /* font-family: "Comfortaa", sans-serif; */
+}
+
+.container {
+    margin: 0 10vw;
+}
+
+.hidden {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.section {
+    margin-top: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Header start */
+
+.header {
+    background-image: url(/img/image\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center center;  
+    background-attachment: fixed;   
+    -webkit-background-size: cover;
+    -moz-background-size: cover;  
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 15vw 0;
+}
+
+.header__title {
+    font-weight: 500;
+    font-size: 3vw;
+    width: 40%;
+}
+
+.header__text {
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 500;
+    font-size: 1vw;
+    color: rgba(255, 255, 255, 0.8);
+
+    margin: 10px 0 20px;
+}
+
+button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    /* отображаем курсор в виде руки при наведении; некоторые
+    считают, что необходимо оставлять стрелочный вид для кнопок */
+    cursor: pointer;
+}
+
+.greeb__btn {
+    background-color: #09978A;
+    padding: 0.7vw 2vw;
+    border-radius: 10px;
+    margin-right: 35px;
+}
+
+.black__button {
+    background-color: #000000;
+    border: 2px solid #055a55;
+    border-radius: 10px;
+    padding: 0.7vw 3vw;
+}
+
+/* Header end */
+
+/* Course start */
+
+.sections__title {
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 500;
+    font-size: 3vw;
+    color: #fff;
+
+    margin-bottom: 50px;
+}
+
+.course__block__wrapper {
+    display: flex;
+}
+
+.course__block {
+    margin-right: 2vw;
+}
+
+.course__block__title {
+    font-weight: 500;
+    font-size: 2vw;
+
+    width: 60%;
+    height: 40%;
+}
+
+.course__block__text {
+    font-weight: 300;
+    font-size: 1.5vw;
+    opacity: 0.5;
+
+    margin-top: 50px;
+}
+
+/* Course end */
+
+/* Galery Start */
+
+.galery__block__title {
+    font-weight: 500;
+    font-size: 1.8vw;
+}
+
+.gallery__block {
+    margin-right: 2vw;
+}
+
+.galery__title {
+    font-weight: 500;
+    font-size: 3.5vw;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.galery__text {
+    font-weight: 500;
+    font-size: 1.2vw;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.galery__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Galery end */
+
+/* Connect Start */
+
+.connect__wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.connect__title {
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 500;
+    font-size: 3vw;
+
+    margin-bottom: 70px;
+}
+
+.connect__block__text {
+    font-weight: 500;
+    font-size: 1.2vw;
+    color: rgba(255, 255, 255, 0.7);
+
+    margin-left: 30px;
+}
+
+.connect__upper__block {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.line {
+    background-color: #fff;
+    width: 1px;
+    height: 5vw;
+    margin-left: 11px;
+}
+
+.connect__under__block {
+    display: flex;
+    margin-bottom: 3vw;
+    align-items: center;
+}
+
+.connect__upper__block img {
+    height: 100%;
+}
+
+.black__button.second {
+    width: 100%;
+}
+
+/* Connect End */
+
+/* Contact Start */
+
+.contact {
+    margin-bottom: 150px;
+}
+
+.contact__title {
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 500;
+    font-size: 3vw;
+    margin-bottom: 120px;
+}
+
+.contact__block__title {
+    font-weight: 500;
+    font-size: 1.8vw;
+    margin: 10px 0 15px;
+}
+
+.contact__text {
+    font-weight: 500;
+    font-size: 1.2vw;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.contact__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Contact end */
+
+/* form Start */
+
+.form {
+    border-radius: 15px;
+    background-color: #1c4359;
+    width: 30%;
+
+    /* display: flex; */
+
+    position: fixed;
+    top:  50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 9999;
+    padding: 90px 60px  ;
+}
+
+.form__input {
+    box-shadow: none;
+    background-color: transparent;
+    font: inherit;
+    color: inherit;
+
+    font-weight: 500;
+    font-size: 15px;
+
+    border: 2px solid #fff;
+    border-radius: 5px;
+
+    padding: 10px 0 10px 15px;
+    width: 100%;
+
+    margin-bottom: 40px;
+}
+
+.form__input:last-child {
+    margin: 0;
+}
+
+input::placeholder {
+    color: #fff;
+}
+
+.close {
+    padding: 15px;
+}
+
+.black__button.form_btn {
+    width: 100%;
+    background-color: #000;
+}
+
+/* Form end */
+
+.overlay {
+    background-color: #365736;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(4px);
+    z-index: 100;
+    transition: all 0.5s;
+    opacity: 0.5;
+}
